@@ -1,0 +1,108 @@
+* {
+    Margin: 0;
+    padding: 0;
+}
+
+.headerContainer {
+    border: solid 1px rgb(0, 255, 255);
+    padding: 20px;
+    padding-bottom: 30px;
+}
+
+h1 {
+    font-family: 'Spectral', serif;
+    font-style: italic;
+    font-weight:bold;
+    font-size: 600%; 
+    text-align: center;
+    text-transform: capitalize;
+    color:rgb(2, 122, 102)
+    
+}
+
+h2 {
+    font-family: 'Spectral', serif;
+    font-style: italic;
+    font-weight:bold;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 250%;
+}
+
+h3 {
+    font-family: 'Spectral', serif;
+    font-style: italic;
+    font-size: 150%;
+    line-height: 3.5;
+    color:rgb(2, 122, 102);
+    
+}
+
+
+p {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+}
+
+.header__navbar {
+    background-color: black;
+    color:white;
+    font-family: 'Spectral', serif;
+    font-style: italic;
+    font-weight:bold;
+    text-align: center;
+    text-decoration: none; /* ¿por qué a pesar de tener esto me siguen apareciendo las letras de los vínculos como en morado y no solo blanco? */
+    position:sticky;  /* y acá por más que intenté tampoco logré entender pq la nav bar no se queda fija arriba :( */
+    top: 0;
+    z-index: 1;
+}
+   
+ul li {
+    list-style-type: none;
+    display:inline-block;
+    width: 15%;
+    position: relative;
+    font-size: 15px;
+}
+
+.insertsExternos{
+    padding: 50px;
+    margin-left:5px;
+    margin-right:5px;
+    background-color: cadetblue;
+}
+
+.mainText {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.piePag {
+    text-align: center;
+    padding-top: 90px;
+}
+
+.piePag .piePag__p {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.intraText {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding:20px;
+}
+
+.tabla {
+    color:rgb(2, 122, 102);
+    text-align: center;
+
+}
+
+.textoTienda {
+    padding: 50px;
+    text-align: center;
+
+}
+
